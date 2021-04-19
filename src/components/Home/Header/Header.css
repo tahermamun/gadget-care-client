@@ -1,0 +1,36 @@
+/* Start Header Section Style */
+.header-main {
+    background: url('../../../Image/bgHeader.png'), linear-gradient(#fef4f5, #fef4f5);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #ffffff;
+}
+
+.header-content {
+    color: #02050E;
+}
+
+.header-main .header-title {
+    font-size: 45px;
+}
+
+/* End Header Section Style */
+
+
+/* Media Query for mobile responsive */
+@media (max-width: 480px) {
+    .header-image {
+        width: 200px;
+        margin: -80px 0 0 90px;
+    }
+    .header-main .header-title {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .header-main {
+
+        height: 400px;
+    }
+}

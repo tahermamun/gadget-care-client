@@ -1,0 +1,37 @@
+/* Footer Section Style start  */
+
+.footer-area {
+    background: #EE5A24;
+}
+
+.footer-area li {
+    padding-bottom: 10px;
+}
+
+.footer-right {
+    color: white;
+}
+
+.footer-left {
+    color: white;
+}
+
+.social-media .icon {
+    height: 40px;
+    width: 40px;
+    color: #EE5A24;
+    border-radius: 20px;
+    border: 1px solid #EE5A24;
+    padding: 10px;
+    background: #ffffff;
+}
+
+/* Footer Section Style start  */
+
+/* Media Query for mobile responsive */
+
+@media (max-width: 480px) {
+    .footer-area {
+        text-align: center;
+    }
+}

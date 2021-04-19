@@ -1,0 +1,20 @@
+/* Testimonial section Style */
+
+.testimonial-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.testimonial-section {
+    background-color: #fef4f4;
+}
+
+/* Media Query for mobile responsive */
+
+@media (max-width: 480px) {
+    .testimonial-container {
+        grid-template-columns: 1fr;
+    }
+}

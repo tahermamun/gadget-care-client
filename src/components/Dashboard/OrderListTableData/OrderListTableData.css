@@ -1,0 +1,19 @@
+
+.statues-input {
+    display: block;
+    margin: 5px 0 0 0;
+    width: 100px;
+    padding: 5px 5px;
+    font-size: 15px;
+    font-family: "Source Code Pro", monospace;
+    box-shadow: #32325d26 0px 1px 3px, #00000005 0px 1px 0px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    background: #ebe7e7;
+}
+
+.statues-input:focus {
+    box-shadow: #32325d1c 0px 4px 6px, #00000014 0px 1px 3px;
+    transition: all 150ms ease;
+}

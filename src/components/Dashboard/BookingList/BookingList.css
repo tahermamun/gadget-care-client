@@ -1,0 +1,7 @@
+/* Order Card Style */
+.order-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 10px;
+}

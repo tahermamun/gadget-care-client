@@ -1,0 +1,14 @@
+/* Blog section Style */
+.blog-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+
+/* Media Query for mobile responsive */
+@media (max-width: 480px) {
+    .blog-card-container {
+        grid-template-columns: 1fr;
+    }
+}

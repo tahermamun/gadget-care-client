@@ -1,0 +1,48 @@
+  /* Service card Style Start */
+
+  .service-card {
+    justify-self: center;
+    text-align: center;
+  }
+
+  /* Product card Style Start */
+
+  .service-card {
+    width: 350px;
+    height: 350px;
+    background: #fef4f5;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+    padding: 20px;
+  }
+
+  .service-card-icon img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .product-price {
+    color: #EE5A24;
+    font: 26px;
+    font-weight: 800;
+  }
+
+  .service-title {
+    color: #EE5A24;
+  }
+
+  /* Service card Style End */
+
+  /* Media query use for mobile responsive*/
+
+  @media (max-width: 480px) {
+    .product-card {
+      width: 90%;
+      height: 400px;
+      padding: 15px;
+    }
+  }

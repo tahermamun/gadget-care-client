@@ -1,0 +1,20 @@
+/* navbar style start  */
+
+.navbar-main {
+    background-color: #ffffff;
+}
+
+.nav-link-style {
+    margin-right: 10px;
+    color: #5f5e5e;
+    font-weight: 400;
+}
+
+.nav-link-style:hover {
+    text-decoration: none;
+    color: #ff6e40;
+    transform: translateY(-1px);
+    transition: all 150ms ease;
+}
+
+/* navbar style End  */

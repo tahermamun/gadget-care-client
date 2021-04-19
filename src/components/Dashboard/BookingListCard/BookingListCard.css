@@ -1,0 +1,32 @@
+/* Order card Style */
+
+.order-card {
+  width: 350px;
+  height: 220px;
+  background: #ffffff;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px #00000080;
+  position: relative;
+  padding: 20px;
+}
+
+.order-card-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.order-title {
+  color: #EE5A24;
+}
+
+/* Media query use for mobile responsive*/
+
+@media (max-width: 480px) {
+  .order-card {
+    width: 90%;
+    height: 400px;
+    padding: 15px;
+  }
+}

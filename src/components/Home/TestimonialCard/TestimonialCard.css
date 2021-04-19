@@ -1,0 +1,67 @@
+/* Testimonial Card Design  Start*/
+.testimonial-card {
+    margin: 40px auto;
+}
+
+.profile {
+    padding: 70px 10px 10px;
+    background: #ffffff; 
+    border-radius: 15px;
+}
+
+.profile img {
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 2px solid #ff9800;
+}
+
+.user {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+
+span {
+    font-size: 12px;
+    color: #333;
+}
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Georgia, serif;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 50px;
+    color: #ff9800;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+    position: relative;
+}
+
+blockquote::after {
+    content: "\201D";
+    font-size: 50px;
+    color: #ff9800;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+    position: relative;
+}
+
+.profile:hover {
+    box-shadow: 0 0 10px 10px #00000033;
+    cursor: pointer;
+    transition: 0.4s;
+}
+/* Testimonial Card Design  End*/

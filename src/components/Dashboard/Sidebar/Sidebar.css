@@ -1,0 +1,19 @@
+.sidebar {
+    background-image: linear-gradient(40deg, #7152F5, #846af8);
+    position: fixed;
+}
+
+.sidebar li span {
+    margin-bottom: 2em;
+    color: #ffffff;
+}
+
+.sidebar li:hover span:hover {
+    text-decoration: none;
+    color: #fef4f5;
+}
+
+.sidebar-header-icon {
+    color: #ff7b00;
+}
+

@@ -1,0 +1,81 @@
+/*Dashboard  Style */
+
+.dashboard-header {
+    background: #846af8;
+}
+
+.dashboard-header-title {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.dashboard-container {
+    background: #fef4f5;
+    width: fit-content;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.dashboard-input {
+    display: block;
+    margin: 5px 0 10px 0;
+    width: 500px;
+    padding: 10px 14px;
+    font-size: 1em;
+    font-family: "Source Code Pro", monospace;
+    box-shadow: #32325d26 0px 1px 3px, #00000005 0px 1px 0px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    background: white;
+}
+
+.dashboard-input:focus {
+    box-shadow: #32325d1c 0px 4px 6px, #00000014 0px 1px 3px;
+    transition: all 150ms ease;
+}
+
+.dashboard-input-title {
+    color: #6b7c93;
+    font-weight: 700;
+    letter-spacing: 0.25;
+}
+
+.dashboard-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.dashboard-container table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dashboard-container td, th {
+    padding-left: 8px
+}
+
+.dashboard-container thead tr {
+    height: 60px;
+    background: #FFED86;
+    font-size: 16px;
+}
+
+.dashboard-container tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #E3F1D5;
+}
+
+.dashboard-container tbody tr:last-child {
+    border: 0;
+}
