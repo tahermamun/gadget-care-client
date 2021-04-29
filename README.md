@@ -1,7 +1,7 @@
 # This is Client Side Code
 
 # Gadget Care
-#### This is a simple Service Website. Full Stack Development
+#### This is a MERN STACK PROJECT!!
 
 ## Live Website Link: https://gadget-care.web.app/home
 ## Server Side Code: https://github.com/tahermamun/gadget-care-server
@@ -16,12 +16,13 @@
 * FontAwesome
 * JavaScript
 * React
+* Express Js
 * React Router
 * Firebase 
 * MongoDB Database
 * Node js
+* Heroku
 
-## This website  
 
 ## Website Features: 
 
